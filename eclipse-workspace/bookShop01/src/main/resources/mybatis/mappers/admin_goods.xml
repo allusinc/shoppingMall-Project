@@ -239,8 +239,8 @@
 	      <if test=" goods_point!='' and goods_point!=null">
 	        goods_point=#{goods_point},
 	      </if>
-	      <if test=" goods_total_page!='' and goods_total_page!=null">
-	        goods_page_total=#{goods_total_page},
+	      <if test=" goods_page_total!='' and goods_page_total!=null">
+	        goods_page_total=#{goods_page_total},
 	      </if>
 	      <if test=" goods_isbn!='' and goods_isbn!=null">
 	        goods_isbn=#{goods_isbn},

@@ -45,8 +45,8 @@ function fn_modify_goods(goods_id, attribute){
 		value=frm_mod_goods.goods_point.value;
 	}else if(attribute=='goods_published_date'){
 		value=frm_mod_goods.goods_published_date.value;
-	}else if(attribute=='goods_total_page'){
-		value=frm_mod_goods.goods_total_page.value;
+	}else if(attribute=='goods_page_total'){
+		value=frm_mod_goods.goods_page_total.value;
 	}else if(attribute=='goods_isbn'){
 		value=frm_mod_goods.goods_isbn.value;
 	}else if(attribute=='goods_delivery_price'){
@@ -286,7 +286,7 @@ function fn_modify_goods(goods_id, attribute){
 				<td >상품 총 페이지수</td>
 				<td><input name="goods_total_page" type="text" size="40"  value="${goods.goods_total_page }"/></td>
 				<td>
-				 <input  type="button" value="수정반영"  onClick="fn_modify_goods('${goods.goods_id }','goods_total_page')"/>
+				 <input  type="button" value="수정반영"  onClick="fn_modify_goods('${goods.goods_id }','goods_total_page"/>
 				</td>
 
 			</tr>

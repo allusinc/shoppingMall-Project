@@ -65,8 +65,8 @@ function modify_cart_qty(goods_id,bookPrice,index){
 	}
 		
 	var cart_goods_qty=Number(_cart_goods_qty);
-	alert("cart_goods_qty:"+cart_goods_qty);
-	console.log(cart_goods_qty);
+	//alert("cart_goods_qty:"+cart_goods_qty);
+	//console.log(cart_goods_qty);
 	$.ajax({
 		type : "post",
 		async : false, //false인 경우 동기식으로 처리한다.
@@ -229,7 +229,7 @@ function fn_order_all_cart_goods(){
 					</td>
 					<td>
 					   <input type="text" id="cart_goods_qty" name="cart_goods_qty" size=3 value="${cart_goods_qty}"><br>
-						<a href="javascript:modify_cart_qty(${item.goods_id },${item.goods_sales_price*0.9*cart_goods_qty },${cnt.count-1 });" >
+						<a href="javascript:modify_cart_qty(${item.goods_id },${item.goods_sales_price*0.9 },${cnt.count-1 });" >
 						    <img width=25 alt=""  src="${contextPath}/resources/image/btn_modify_qty.jpg">
 						</a>
 					</td>
@@ -257,7 +257,7 @@ function fn_order_all_cart_goods(){
 					</td>
 			</tr>
 				<c:set  var="totalGoodsPrice" value="${totalGoodsPrice+item.goods_sales_price*0.9*cart_goods_qty }" />
-				<c:set  var="totalGoodsNum" value="${totalGoodsNum+cart_goods_qty}" />
+				<c:set  var="totalGoodsNum" value="${totalGoodsNum+1 }" />
 			   </c:forEach>
 		    
 		</tbody>

@@ -12,6 +12,10 @@
 		<org.springframework-version>4.1.1.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
+		<maven-jar-plugin.version>aven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version> <java.version>1.8</java.version>
+
+
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -117,14 +121,14 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- JDBC 설정하기 
+		<!-- JDBC 설정하기 -->
      <dependency>
 	    <groupId>oracle.jdbc</groupId>
 	    <artifactId>OracleDriver</artifactId>
 	    <version>12.1.0.2.0</version>
 	    <scope>system</scope>
-	    <systemPath>C:\Users\410\git\006895\bookShop01\src\main\webapp\WEB-INF\lib</systemPath>
-      </dependency> -->
+	    <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc7.jar</systemPath>
+      </dependency>
      
       
       <dependency>

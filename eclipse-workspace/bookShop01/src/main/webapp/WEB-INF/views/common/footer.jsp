@@ -15,14 +15,14 @@
 	<li class="no_line"><a href="#">찾아오시는길</a></li>
 </ul>
 <div class="clear"></div>
-<a href="#"><img width="147px"  height="62px" alt="Booktopia" src="${contextPath}/resources/image/Book_Logo.jpg" /></a>
+<a href="#"><img width="147px"  height="62px" alt="Booktopia" src="${contextPath}/resources/image/Booktopia_Logo1.jpg" /></a>
 <div style="padding-left:200px">
-	 원스브로 <br>
+	 ONESBRO <br>
 	 대표이사: 박준원   <br>
-	 주소 : 우편번호 06338	경기도 용인시 수지구 <br>  
+	 주소 : 우편번호 16859 경기도 용인시 수지구 <br>  
 	 사업자등록번호 : 102-81-11111 <br>
-	 서울특별시 통신판매업신고번호 : 제 1004호 ▶사업자정보확인   개인정보보호최고책임자 : 김길동 privacy@google.co.kr <br>
-	 대표전화 : 1544-1544 (발신자 부담전화)   팩스 : 0502-977-7777 (지역번호공통) <br>
-	 COPYRIGHT(C) 원스브로 BOOK CENTRE ALL RIGHTS RESERVED.
+	 서울특별시 통신판매업신고번호 : 제 666호 ▶사업자정보확인   개인정보보호최고책임자 : 김길동 juneonepark@gmail.com <br>
+	 대표전화 : 010-7421-0602 (발신자 부담전화)   팩스 : 0303-3442-0602 (지역번호공통) <br>
+	 COPYRIGHT(C) ONESBRO BOOK CENTRE ALL RIGHTS RESERVED.
 </div>
 
